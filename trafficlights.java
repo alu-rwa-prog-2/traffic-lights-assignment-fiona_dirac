@@ -12,18 +12,7 @@ public class trafficlights {
 
 		// we create the car collection that will be used
 		ArrayList < Integer > cars = new ArrayList < Integer > ();
-
-		/*
-		 *  we start adding cars to our collection , we can only generate 20 at a time
-		 *  we create a loop that only adds 20 at a time, and checks to see if the cars are more than a hundred or not
-		 *  if not, we add another 20 cars and so on
-		 * */
-		while (cars.size() < 100) {
-			for (int i = 1; i <= 20; i++) {
-				cars.add(random.nextInt(21));
-			}
-		}
-		System.out.println("The cars in traffic are now " + cars.size());
+		
 		/*
 		 * we create the sequences of the traffic lights
 		 * this includes the lights, and the time that the particular light stays on
