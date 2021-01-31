@@ -1,7 +1,7 @@
 // Author : Dirac Murairi
 import java.util.HashMap;
 
-public class map {
+public class Question_2 {
     public static void main(String[] args) {
         // Create a HashMap object
         HashMap < String, String > countryPresident_1 = new HashMap < String, String > ();
